@@ -120,27 +120,6 @@
 
 <slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Why using R???</h2></hgroup><article  id="why-using-r">
 
-</article></slide><slide class=""><hgroup><h2>laal</h2></hgroup><article  id="laal">
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="left">Off-the-shelf dashboards</th>
-<th align="left">Custom web app</th>
-</tr>
-<tr class="odd">
-<td align="left">PowerBI, Tableau, QuickSight, &#8230;</td>
-<td align="left">Angular, ReactJS, Ember, &#8230;</td>
-</tr>
-</table>
-
-<div class="green">
-Easy to create, publish and share</div>
-
-|
-
-<div class="green">
-Engineering control</div>
-
 </article></slide><slide class=""><hgroup><h2>Two extremes to develop an app</h2></hgroup><article  id="two-extremes-to-develop-an-app" class="build">
 
 <div class="columns-2">
@@ -439,8 +418,8 @@ CMD [&quot;R&quot;, &quot;-e&quot;, &quot;shiny::runApp(&#39;/root/euler&#39;)&q
 
 </article></slide><slide class=""><hgroup><h2>ShinyProxy + SSL</h2></hgroup><article  id="shinyproxy-ssl">
 
-<div id="htmlwidget-2d1d639261ece1484523" style="width:720px;height:200px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-2d1d639261ece1484523">{"x":{"diagram":"\ndigraph rmarkdown {\nrankdir = LR\nnode [shape = box,\n        fontname = Helvetica]\nUser; \"Web\nserver\"; ShinyProxy; \"Shiny\ncontainer\";\n\nUser -> \"Web\nserver\" [label = \"https\nrequest\"]\n\"Web\nserver\" -> ShinyProxy [label = \"forward\nrequest\"]\nShinyProxy -> \"Shiny\ncontainer\" [label = \"spin up\"]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-1c7dbe406011673819f3" style="width:720px;height:200px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1c7dbe406011673819f3">{"x":{"diagram":"\ndigraph rmarkdown {\nrankdir = LR\nnode [shape = box,\n        fontname = Helvetica]\nUser; \"Web\nserver\"; ShinyProxy; \"Shiny\ncontainer\";\n\nUser -> \"Web\nserver\" [label = \"https\nrequest\"]\n\"Web\nserver\" -> ShinyProxy [label = \"forward\nrequest\"]\nShinyProxy -> \"Shiny\ncontainer\" [label = \"spin up\"]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 
 <ul>
 <li>Web server, e.g. nginx, responsible for SSL encryption</li>
