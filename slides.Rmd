@@ -37,7 +37,7 @@ editor_options:
 
 ## Meet Shiny
 
->- <div class="green">Code based -- version control, easy to collaboration, changelogs, clear chart definitions, easy search for help</div>
+>- <div class="green">Code based -- version control, easy to collaborate, changelogs, clear chart definitions, easy search for help</div>
 >- <div class="green">No deep HTML/CSS/JS knowledge required</div>
 >- <div class="green">Reasonable flexibility</div>
 >- <div class="green">Rapid development</div>

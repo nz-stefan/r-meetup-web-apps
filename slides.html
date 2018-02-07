@@ -161,7 +161,7 @@ Development spread across multiple teams</div></li>
 
 <ul class = 'build'>
 <li><div class="green">
-Code based &#8211; version control, easy to collaboration, changelogs, clear chart definitions, easy search for help</div></li>
+Code based &#8211; version control, easy to collaborate, changelogs, clear chart definitions, easy search for help</div></li>
 <li><div class="green">
 No deep HTML/CSS/JS knowledge required</div></li>
 <li><div class="green">
@@ -418,8 +418,8 @@ CMD [&quot;R&quot;, &quot;-e&quot;, &quot;shiny::runApp(&#39;/root/euler&#39;)&q
 
 </article></slide><slide class=""><hgroup><h2>ShinyProxy + SSL</h2></hgroup><article  id="shinyproxy-ssl">
 
-<div id="htmlwidget-1c7dbe406011673819f3" style="width:720px;height:200px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1c7dbe406011673819f3">{"x":{"diagram":"\ndigraph rmarkdown {\nrankdir = LR\nnode [shape = box,\n        fontname = Helvetica]\nUser; \"Web\nserver\"; ShinyProxy; \"Shiny\ncontainer\";\n\nUser -> \"Web\nserver\" [label = \"https\nrequest\"]\n\"Web\nserver\" -> ShinyProxy [label = \"forward\nrequest\"]\nShinyProxy -> \"Shiny\ncontainer\" [label = \"spin up\"]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-408454351fb711a9b85c" style="width:720px;height:200px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-408454351fb711a9b85c">{"x":{"diagram":"\ndigraph rmarkdown {\nrankdir = LR\nnode [shape = box,\n        fontname = Helvetica]\nUser; \"Web\nserver\"; ShinyProxy; \"Shiny\ncontainer\";\n\nUser -> \"Web\nserver\" [label = \"https\nrequest\"]\n\"Web\nserver\" -> ShinyProxy [label = \"forward\nrequest\"]\nShinyProxy -> \"Shiny\ncontainer\" [label = \"spin up\"]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 
 <ul>
 <li>Web server, e.g. nginx, responsible for SSL encryption</li>
