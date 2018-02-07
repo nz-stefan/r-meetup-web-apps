@@ -1,0 +1,12 @@
+name: shiny-module-example
+title: shiny-module-example
+username:
+account: nz-stefan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 273724
+bundleId: 1209735
+url: https://nz-stefan.shinyapps.io/shiny-module-example/
+when: 1517911251.27998
+asMultiple: FALSE
+asStatic: FALSE
